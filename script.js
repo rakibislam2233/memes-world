@@ -29,7 +29,7 @@ const displayData = data =>{
         const div = document.createElement("div");
         div.innerHTML = `
         <div class="card w-full md:w-96 h-96 card-compact bg-base-100 shadow-xl">
-        <figure><img src="${datas.url?datas.url:'https://picsum.photos/200'}" alt="Shoes" /></figure>
+        <figure><img src="${datas.url?datas.url:'https://api.memegen.link/images/buzz/memes/memes_everywhere.gif'}" alt="Memes Not Found" /></figure>
         <div class="card-body">
             <h2 id="name" class="card-title">${datas.title}</h2>
         </div>
